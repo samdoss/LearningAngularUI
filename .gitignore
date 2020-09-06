@@ -1,0 +1,24 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# IDEs and editors
+LearningAccess.Api/bin/
+LearningAccess.Api/bin/debug/
+
+LearningAccess.Api/obj/
+
+LearningAccess.Common/bin/
+LearningAccess.Common/obj/
+
+LearningAccess.DataAccess/bin/
+LearningAccess.DataAccess/obj/
+
+LearningAccess.UI/bin/
+LearningAccess.UI/obj/
+
+
+
+
+
+# System Files
+.DS_Store
+Thumbs.db
