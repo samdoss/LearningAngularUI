@@ -1,0 +1,34 @@
+
+Angular exception
+
+ng : File C:\Users\Samdoss\AppData\Roaming\npm\ng.ps1 cannot be loaded. The file
+C:\Users\Samdoss\AppData\Roaming\npm\ng.ps1 is not digitally signed. You cannot run this script on the current system.
+For more information about running scripts and setting execution policy, see about_Execution_Policies at
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ ng serve --open
++ ~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+
+Solution : 
+-----------
+Run this command in powershell
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
+npm install --global @angular/cli@next
+
+install latest version
+
+google enabled analytics 
+
+if you want off
+
+ng analytics project off 
+
+----------------------------------------------------------------
+
+
+
+
